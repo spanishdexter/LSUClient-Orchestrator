@@ -16,8 +16,9 @@ setup.bat NULL -NODEFAULTSETTINGS - installs without default registry settings
 setup.bat -NODESKTOPICON - installs without a desktop icon
 How To Uninstall:
 Uninstall.bat will remove the LSUClient Orchestrator tool from your machine. Or you can go into Control Panel and then Add/Remove programs to uninstall it.
+
 Explanation of Registry Settings:
-[HKEY_LOCAL_MACHINE\SOFTWARE\LSUOrch]
+Located at [HKEY_LOCAL_MACHINE\SOFTWARE\LSUOrch]
 "LoggingEnabled" – If set to 1 logging is enabled. 1 is default.
 "DeleteLogDays" – Delete logs older than X amount of days. 30 is default.
 "Rounds" – How many update rounds the LSUClient module should perform. Default is 3.
